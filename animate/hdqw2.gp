@@ -131,7 +131,7 @@ set xlabel "Date"
 set xlabel  font "" textcolor lt -1 norotate
 set x2label "" 
 set x2label  font "" textcolor lt -1 norotate
-set xrange [ 0.00000 : 26.0000 ] noreverse nowriteback
+set xrange [ 0.500000 : 26.5000 ] noreverse nowriteback
 set x2range [ * : * ] noreverse writeback
 set ylabel "Weight" 
 set ylabel  font "" textcolor lt -1 rotate

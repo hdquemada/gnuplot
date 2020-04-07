@@ -1,0 +1,522 @@
+Last login: Mon Apr  6 07:57:31 on ttys000
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  ls
+Terminal Saved Output.txt file014.png               file12.dat                file3.dat
+file000.png               file015.png               file13.dat                file4.dat
+file001.png               file016.png               file14.dat                file5.dat
+file002.png               file017.png               file15.dat                file6.dat
+file003.png               file018.png               file16.dat                file7.dat
+file004.png               file019.png               file17.dat                file8.dat
+file005.png               file020.png               file18.dat                file9.dat
+file006.png               file021.png               file19.dat                hdqw.dat
+file007.png               file022.png               file2.dat                 hdqw2.gp
+file008.png               file023.png               file20.dat                makegif
+file009.png               file024.png               file21.dat                weight.gif
+file010.png               file025.png               file22.dat                weight2.gif
+file011.png               file1.dat                 file23.dat
+file012.png               file10.dat                file24.dat
+file013.png               file11.dat                file25.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  cd ..
+CAS-QuemHe19L1➜  gnuplot : master ✘ :✹ ᐅ  ls
+Gnuplot_5.2.pdf hdqweight1.csv  mc.dat          tutorial.pdf    volsbox.gp
+animate         hr.dat          mc.gp           vols.dat        volsbox.ps
+hdqw.dat        hr.gp           mc.ps           vols.gp         weight.p
+hdqw2.gp        hr.ps           mc2.ps          vols.ps         weight.ps
+CAS-QuemHe19L1➜  gnuplot : master ✘ :✹ ᐅ  cat hdqw.dat
+1 08/31/19 172
+2 09/01/19 171
+3 09/02/19 172.5
+4 09/11/19 174.5
+5 09/14/19 172.5
+6 09/17/19 171
+7 09/24/19 172.5
+8 09/27/19 172.5
+9 09/30/19 172.5
+10 10/04/19 170
+11 10/08/19 171.5
+12 10/30/19 172
+13 11/16/19 170.5
+14 12/22/19 169.5
+15 01/03/20 169.5
+16 02/17/20 166
+17 02/20/20 165
+18 02/21/20 164.5
+19 02/23/20 164
+20 02/29/20 164
+21 03/04/20 162
+22 03/10/20 162.5
+23 03/13/20 165.5
+24 03/24/20 163.5
+25 03/30/20 161.5
+26 04/06/20 162
+CAS-QuemHe19L1➜  gnuplot : master ✘ :✹ ᐅ  ls
+Gnuplot_5.2.pdf hdqweight1.csv  mc.dat          tutorial.pdf    volsbox.gp
+animate         hr.dat          mc.gp           vols.dat        volsbox.ps
+hdqw.dat        hr.gp           mc.ps           vols.gp         weight.p
+hdqw2.gp        hr.ps           mc2.ps          vols.ps         weight.ps
+CAS-QuemHe19L1➜  gnuplot : master ✘ :✹ ᐅ  cp hdqw.dat animate/
+CAS-QuemHe19L1➜  gnuplot : master ✘ :✹ ᐅ  cd animate
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  ls
+Terminal Saved Output.txt file014.png               file12.dat                file3.dat
+file000.png               file015.png               file13.dat                file4.dat
+file001.png               file016.png               file14.dat                file5.dat
+file002.png               file017.png               file15.dat                file6.dat
+file003.png               file018.png               file16.dat                file7.dat
+file004.png               file019.png               file17.dat                file8.dat
+file005.png               file020.png               file18.dat                file9.dat
+file006.png               file021.png               file19.dat                hdqw.dat
+file007.png               file022.png               file2.dat                 hdqw2.gp
+file008.png               file023.png               file20.dat                makegif
+file009.png               file024.png               file21.dat                weight.gif
+file010.png               file025.png               file22.dat                weight2.gif
+file011.png               file1.dat                 file23.dat
+file012.png               file10.dat                file24.dat
+file013.png               file11.dat                file25.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  cat file25.dat
+1 08/31/19 172
+2 09/01/19 171
+3 09/02/19 172.5
+4 09/11/19 174.5
+5 09/14/19 172.5
+6 09/17/19 171
+7 09/24/19 172.5
+8 09/27/19 172.5
+9 09/30/19 172.5
+10 10/04/19 170
+11 10/08/19 171.5
+12 10/30/19 172
+13 11/16/19 170.5
+14 12/22/19 169.5
+15 01/03/20 169.5
+16 02/17/20 166
+17 02/20/20 165
+18 02/21/20 164.5
+19 02/23/20 164
+20 02/29/20 164
+21 03/04/20 162
+22 03/10/20 162.5
+23 03/13/20 165.5
+24 03/24/20 163.5
+25 03/30/20 161.5
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  clear
+
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  ls
+Terminal Saved Output.txt file014.png               file12.dat                file3.dat
+file000.png               file015.png               file13.dat                file4.dat
+file001.png               file016.png               file14.dat                file5.dat
+file002.png               file017.png               file15.dat                file6.dat
+file003.png               file018.png               file16.dat                file7.dat
+file004.png               file019.png               file17.dat                file8.dat
+file005.png               file020.png               file18.dat                file9.dat
+file006.png               file021.png               file19.dat                hdqw.dat
+file007.png               file022.png               file2.dat                 hdqw2.gp
+file008.png               file023.png               file20.dat                makegif
+file009.png               file024.png               file21.dat                weight.gif
+file010.png               file025.png               file22.dat                weight2.gif
+file011.png               file1.dat                 file23.dat
+file012.png               file10.dat                file24.dat
+file013.png               file11.dat                file25.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  cat hdqw.dat
+1 08/31/19 172
+2 09/01/19 171
+3 09/02/19 172.5
+4 09/11/19 174.5
+5 09/14/19 172.5
+6 09/17/19 171
+7 09/24/19 172.5
+8 09/27/19 172.5
+9 09/30/19 172.5
+10 10/04/19 170
+11 10/08/19 171.5
+12 10/30/19 172
+13 11/16/19 170.5
+14 12/22/19 169.5
+15 01/03/20 169.5
+16 02/17/20 166
+17 02/20/20 165
+18 02/21/20 164.5
+19 02/23/20 164
+20 02/29/20 164
+21 03/04/20 162
+22 03/10/20 162.5
+23 03/13/20 165.5
+24 03/24/20 163.5
+25 03/30/20 161.5
+26 04/06/20 162
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  clear
+
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  ls
+Terminal Saved Output.txt file014.png               file12.dat                file3.dat
+file000.png               file015.png               file13.dat                file4.dat
+file001.png               file016.png               file14.dat                file5.dat
+file002.png               file017.png               file15.dat                file6.dat
+file003.png               file018.png               file16.dat                file7.dat
+file004.png               file019.png               file17.dat                file8.dat
+file005.png               file020.png               file18.dat                file9.dat
+file006.png               file021.png               file19.dat                hdqw.dat
+file007.png               file022.png               file2.dat                 hdqw2.gp
+file008.png               file023.png               file20.dat                makegif
+file009.png               file024.png               file21.dat                weight.gif
+file010.png               file025.png               file22.dat                weight2.gif
+file011.png               file1.dat                 file23.dat
+file012.png               file10.dat                file24.dat
+file013.png               file11.dat                file25.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹ ᐅ  cp hdqw.dat file26.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  ls
+Terminal Saved Output.txt file014.png               file12.dat                file26.dat
+file000.png               file015.png               file13.dat                file3.dat
+file001.png               file016.png               file14.dat                file4.dat
+file002.png               file017.png               file15.dat                file5.dat
+file003.png               file018.png               file16.dat                file6.dat
+file004.png               file019.png               file17.dat                file7.dat
+file005.png               file020.png               file18.dat                file8.dat
+file006.png               file021.png               file19.dat                file9.dat
+file007.png               file022.png               file2.dat                 hdqw.dat
+file008.png               file023.png               file20.dat                hdqw2.gp
+file009.png               file024.png               file21.dat                makegif
+file010.png               file025.png               file22.dat                weight.gif
+file011.png               file1.dat                 file23.dat                weight2.gif
+file012.png               file10.dat                file24.dat
+file013.png               file11.dat                file25.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  cat file26.dat
+1 08/31/19 172
+2 09/01/19 171
+3 09/02/19 172.5
+4 09/11/19 174.5
+5 09/14/19 172.5
+6 09/17/19 171
+7 09/24/19 172.5
+8 09/27/19 172.5
+9 09/30/19 172.5
+10 10/04/19 170
+11 10/08/19 171.5
+12 10/30/19 172
+13 11/16/19 170.5
+14 12/22/19 169.5
+15 01/03/20 169.5
+16 02/17/20 166
+17 02/20/20 165
+18 02/21/20 164.5
+19 02/23/20 164
+20 02/29/20 164
+21 03/04/20 162
+22 03/10/20 162.5
+23 03/13/20 165.5
+24 03/24/20 163.5
+25 03/30/20 161.5
+26 04/06/20 162
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  clear
+
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  ls
+Terminal Saved Output.txt file014.png               file11.dat                file25.dat
+file000.png               file015.png               file12.dat                file26.dat
+file001.png               file016.png               file13.dat                file3.dat
+file002.png               file017.png               file14.dat                file4.dat
+file003.png               file018.png               file15.dat                file5.dat
+file004.png               file019.png               file16.dat                file6.dat
+file005.png               file020.png               file17.dat                file7.dat
+file006.png               file021.png               file18.dat                file8.dat
+file007.png               file022.png               file19.dat                file9.dat
+file008.png               file023.png               file2.dat                 hdqw.dat
+file009.png               file024.png               file20.dat                hdqw2.gp
+file010.png               file025.png               file21.dat                makegif
+file011.png               file026.png               file22.dat                weight.gif
+file012.png               file1.dat                 file23.dat                weight2.gif
+file013.png               file10.dat                file24.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  open file06.png
+zsh: correct 'file06.png' to 'file026.png' [nyae]? y
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  cd makegif
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  ls
+file000.png  file004.png  file008.png  file012.png  file016.png  file020.png  file024.png
+file001.png  file005.png  file009.png  file013.png  file017.png  file021.png  file025.png
+file002.png  file006.png  file010.png  file014.png  file018.png  file022.png  myimages.txt
+file003.png  file007.png  file011.png  file015.png  file019.png  file023.png
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  cd ..
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  ls
+Terminal Saved Output.txt file014.png               file11.dat                file25.dat
+file000.png               file015.png               file12.dat                file26.dat
+file001.png               file016.png               file13.dat                file3.dat
+file002.png               file017.png               file14.dat                file4.dat
+file003.png               file018.png               file15.dat                file5.dat
+file004.png               file019.png               file16.dat                file6.dat
+file005.png               file020.png               file17.dat                file7.dat
+file006.png               file021.png               file18.dat                file8.dat
+file007.png               file022.png               file19.dat                file9.dat
+file008.png               file023.png               file2.dat                 hdqw.dat
+file009.png               file024.png               file20.dat                hdqw2.gp
+file010.png               file025.png               file21.dat                makegif
+file011.png               file026.png               file22.dat                weight.gif
+file012.png               file1.dat                 file23.dat                weight2.gif
+file013.png               file10.dat                file24.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  cp file026.png makegif/
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  cd makegif
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  ls
+file000.png  file004.png  file008.png  file012.png  file016.png  file020.png  file024.png
+file001.png  file005.png  file009.png  file013.png  file017.png  file021.png  file025.png
+file002.png  file006.png  file010.png  file014.png  file018.png  file022.png  file026.png
+file003.png  file007.png  file011.png  file015.png  file019.png  file023.png  myimages.txt
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  animatemagick -delay 100 -loop 0 file*.png weight.gif 
+zsh: command not found: animatemagick
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  animate magick -delay 100 -loop 0 file*.png weight.gif
+Version: ImageMagick 7.0.10-0 Q16 x86_64 2020-03-08 https://imagemagick.org
+Copyright: © 1999-2020 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Cipher DPC HDRI Modules OpenMP(3.1) 
+Delegates (built-in): bzlib freetype heic jng jp2 jpeg lcms ltdl lzma openexr png tiff webp xml zlib
+Usage: animate [options ...] file [ [options ...] file ...]
+
+Image Settings:
+  -alpha option        on, activate, off, deactivate, set, opaque, copy
+                       transparent, extract, background, or shape
+  -authenticate password
+                       decipher image with this password
+  -backdrop            display image centered on a backdrop
+  -colormap type       Shared or Private
+  -colorspace type     alternate image colorspace
+  -decipher filename   convert cipher pixels to plain pixels
+  -define format:option
+                       define one or more image format options
+  -delay value         display the next image after pausing
+  -density geometry    horizontal and vertical density of the image
+  -depth value         image depth
+  -display server      display image to this X server
+  -dispose method      layer disposal method
+  -dither method       apply error diffusion to image
+  -filter type         use this filter when resizing an image
+  -format "string"     output formatted image characteristics
+  -gamma value         level of gamma correction
+  -geometry geometry   preferred size and location of the Image window
+  -gravity type        horizontal and vertical backdrop placement
+  -identify            identify the format and characteristics of the image
+  -immutable           displayed image cannot be modified
+  -interlace type      type of image interlacing scheme
+  -interpolate method  pixel color interpolation method
+  -limit type value    pixel cache resource limit
+  -loop iterations     loop images then exit
+  -matte               store matte channel if the image has one
+  -map type            display image using this Standard Colormap
+  -monitor             monitor progress
+  -pause               seconds to pause before reanimating
+  -page geometry       size and location of an image canvas (setting)
+  -quantize colorspace reduce colors in this colorspace
+  -quiet               suppress all warning messages
+  -regard-warnings     pay attention to warning messages
+  -remote command      execute a command in an remote display process
+  -repage geometry     size and location of an image canvas (operator)
+  -respect-parentheses settings remain in effect until parenthesis boundary
+  -sampling-factor geometry
+                       horizontal and vertical sampling factor
+  -scenes range        image scene range
+  -seed value          seed a new sequence of pseudo-random numbers
+  -set attribute value set an image attribute
+  -size geometry       width and height of image
+  -support factor      resize support: > 1.0 is blurry, < 1.0 is sharp
+  -transparent-color color
+                       transparent color
+  -treedepth value     color tree depth
+  -verbose             print detailed information about the image
+  -visual type         display image using this visual type
+  -virtual-pixel method
+                       virtual pixel access method
+  -window id           display image to background of this window
+
+Image Operators:
+  -channel mask        set the image channel mask
+  -colors value        preferred number of colors in the image
+  -crop geometry       preferred size and location of the cropped image
+  -extract geometry    extract area from image
+  -monochrome          transform image to black and white
+  -resample geometry   change the resolution of an image
+  -resize geometry     resize the image
+  -rotate degrees      apply Paeth rotation to the image
+  -strip               strip image of all profiles and comments
+  -thumbnail geometry  create a thumbnail of the image
+  -trim                trim image edges
+
+Image Sequence Operators:
+  -coalesce            merge a sequence of images
+  -flatten             flatten a sequence of images
+
+Miscellaneous Options:
+  -debug events        display copious debugging information
+  -help                print program options
+  -list type           print a list of supported option arguments
+  -log format          format of debugging information
+  -version             print version information
+
+In addition to those listed above, you can specify these standard X
+resources as command line options:  -background, -bordercolor,
+-mattecolor, -borderwidth, -font, -foreground, -iconGeometry,
+-iconic, -name, -shared-memory, or -title.
+
+By default, the image format of 'file' is determined by its magic
+number.  To specify a particular image format, precede the filename
+with an image format name and a colon (i.e. ps:image) or specify the
+image type as the filename suffix (i.e. image.ps).  Specify 'file' as
+'-' for standard input or output.
+
+Buttons: 
+  Press any button to map or unmap the Command widget
+animate: delegate library support not built-in '' (X11) @ error/animate.c/AnimateImageCommand/1431.
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  animate -delay 100 -loop 0 file*.png weight.gif 
+Version: ImageMagick 7.0.10-0 Q16 x86_64 2020-03-08 https://imagemagick.org
+Copyright: © 1999-2020 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Cipher DPC HDRI Modules OpenMP(3.1) 
+Delegates (built-in): bzlib freetype heic jng jp2 jpeg lcms ltdl lzma openexr png tiff webp xml zlib
+Usage: animate [options ...] file [ [options ...] file ...]
+
+Image Settings:
+  -alpha option        on, activate, off, deactivate, set, opaque, copy
+                       transparent, extract, background, or shape
+  -authenticate password
+                       decipher image with this password
+  -backdrop            display image centered on a backdrop
+  -colormap type       Shared or Private
+  -colorspace type     alternate image colorspace
+  -decipher filename   convert cipher pixels to plain pixels
+  -define format:option
+                       define one or more image format options
+  -delay value         display the next image after pausing
+  -density geometry    horizontal and vertical density of the image
+  -depth value         image depth
+  -display server      display image to this X server
+  -dispose method      layer disposal method
+  -dither method       apply error diffusion to image
+  -filter type         use this filter when resizing an image
+  -format "string"     output formatted image characteristics
+  -gamma value         level of gamma correction
+  -geometry geometry   preferred size and location of the Image window
+  -gravity type        horizontal and vertical backdrop placement
+  -identify            identify the format and characteristics of the image
+  -immutable           displayed image cannot be modified
+  -interlace type      type of image interlacing scheme
+  -interpolate method  pixel color interpolation method
+  -limit type value    pixel cache resource limit
+  -loop iterations     loop images then exit
+  -matte               store matte channel if the image has one
+  -map type            display image using this Standard Colormap
+  -monitor             monitor progress
+  -pause               seconds to pause before reanimating
+  -page geometry       size and location of an image canvas (setting)
+  -quantize colorspace reduce colors in this colorspace
+  -quiet               suppress all warning messages
+  -regard-warnings     pay attention to warning messages
+  -remote command      execute a command in an remote display process
+  -repage geometry     size and location of an image canvas (operator)
+  -respect-parentheses settings remain in effect until parenthesis boundary
+  -sampling-factor geometry
+                       horizontal and vertical sampling factor
+  -scenes range        image scene range
+  -seed value          seed a new sequence of pseudo-random numbers
+  -set attribute value set an image attribute
+  -size geometry       width and height of image
+  -support factor      resize support: > 1.0 is blurry, < 1.0 is sharp
+  -transparent-color color
+                       transparent color
+  -treedepth value     color tree depth
+  -verbose             print detailed information about the image
+  -visual type         display image using this visual type
+  -virtual-pixel method
+                       virtual pixel access method
+  -window id           display image to background of this window
+
+Image Operators:
+  -channel mask        set the image channel mask
+  -colors value        preferred number of colors in the image
+  -crop geometry       preferred size and location of the cropped image
+  -extract geometry    extract area from image
+  -monochrome          transform image to black and white
+  -resample geometry   change the resolution of an image
+  -resize geometry     resize the image
+  -rotate degrees      apply Paeth rotation to the image
+  -strip               strip image of all profiles and comments
+  -thumbnail geometry  create a thumbnail of the image
+  -trim                trim image edges
+
+Image Sequence Operators:
+  -coalesce            merge a sequence of images
+  -flatten             flatten a sequence of images
+
+Miscellaneous Options:
+  -debug events        display copious debugging information
+  -help                print program options
+  -list type           print a list of supported option arguments
+  -log format          format of debugging information
+  -version             print version information
+
+In addition to those listed above, you can specify these standard X
+resources as command line options:  -background, -bordercolor,
+-mattecolor, -borderwidth, -font, -foreground, -iconGeometry,
+-iconic, -name, -shared-memory, or -title.
+
+By default, the image format of 'file' is determined by its magic
+number.  To specify a particular image format, precede the filename
+with an image format name and a colon (i.e. ps:image) or specify the
+image type as the filename suffix (i.e. image.ps).  Specify 'file' as
+'-' for standard input or output.
+
+Buttons: 
+  Press any button to map or unmap the Command widget
+animate: delegate library support not built-in '' (X11) @ error/animate.c/AnimateImageCommand/1431.
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  magick -delay 100 -loop 0 file*.png weight.gif
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  clear
+
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  ls
+file000.png  file004.png  file008.png  file012.png  file016.png  file020.png  file024.png  weight.gif
+file001.png  file005.png  file009.png  file013.png  file017.png  file021.png  file025.png
+file002.png  file006.png  file010.png  file014.png  file018.png  file022.png  file026.png
+file003.png  file007.png  file011.png  file015.png  file019.png  file023.png  myimages.txt
+CAS-QuemHe19L1➜  makegif : master ✘ :✹✭ ᐅ  cd ..
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  ls
+Terminal Saved Output.txt file014.png               file11.dat                file25.dat
+file000.png               file015.png               file12.dat                file26.dat
+file001.png               file016.png               file13.dat                file3.dat
+file002.png               file017.png               file14.dat                file4.dat
+file003.png               file018.png               file15.dat                file5.dat
+file004.png               file019.png               file16.dat                file6.dat
+file005.png               file020.png               file17.dat                file7.dat
+file006.png               file021.png               file18.dat                file8.dat
+file007.png               file022.png               file19.dat                file9.dat
+file008.png               file023.png               file2.dat                 hdqw.dat
+file009.png               file024.png               file20.dat                hdqw2.gp
+file010.png               file025.png               file21.dat                makegif
+file011.png               file026.png               file22.dat                weight.gif
+file012.png               file1.dat                 file23.dat                weight2.gif
+file013.png               file10.dat                file24.dat
+CAS-QuemHe19L1➜  animate : master ✘ :✹✭ ᐅ  gnuplot
+
+	G N U P L O T
+	Version 5.2 patchlevel 8    last modified 2019-12-01 
+
+	Copyright (C) 1986-1993, 1998, 2004, 2007-2019
+	Thomas Williams, Colin Kelley and many others
+
+	gnuplot home:     http://www.gnuplot.info
+	faq, bugs, etc:   type "help FAQ"
+	immediate help:   type "help"  (plot window: hit 'h')
+
+Terminal type is now 'x11'
+gnuplot> load 'hdqw2.gp'
+gnuplot> set xrange [0.5:26.5]
+gnuplot> replot
+gnuplot> save 'hdqw2.gp'
+gnuplot> plot 'file4.dat' using 1:3 with points pt 7 ps 3
+gnuplot> set terminal png
+
+Terminal type is now 'png'
+Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
+gnuplot> set output 'file001.png'
+gnuplot> replot
+gnuplot> set output 'file001.png'
+gnuplot> plot 'file1.dat' using 1:3 with points pt 7 ps 3
+gnuplot> set output 'file002.png'
+gnuplot> plot 'file2.dat' using 1:3 with points pt 7 ps 3
+gnuplot> set output 'file003.png'
+gnuplot> plot 'file3.dat' using 1:3 with points pt 7 ps 3
+gnuplot> set output 'file004.png'
+gnuplot> plot 'file4.dat' using 1:3 with points pt 7 ps 3
+gnuplot> set output 'file005.png'
+gnuplot> plot 'file5.dat' using 1:3 with points pt 7 ps 3
+gnuplot> XIO:  fatal IO error 35 (Resource temporarily unavailable) on X server "/private/tmp/com.apple.launchd.VHjEFgSXIO/org.macosforge.xquartz:0"
+      after 2065 requests (2050 known processed) with 0 events remaining.
+
